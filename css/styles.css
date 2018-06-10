@@ -124,6 +124,7 @@ nav h1 a {
     height: 50px;
     background-color: #3397DB;
     align-items: center;
+    padding-top: 12px;
 }
 
 .filter-options h2 {
@@ -143,7 +144,6 @@ nav h1 a {
     letter-spacing: 0;
     margin: 10px;
     padding: 0 10px;
-    width: 200px;
 }
 
 /* ====================== Restaurant Listing ====================== */
@@ -309,3 +309,23 @@ nav h1 a {
 #restaurant-hours td {
     color: #666;
 }
+
+@media all and (min-width: 575px) {
+
+    #restaurants-list li {
+        display: inline-block;
+    }
+}
+
+/* Standard BS Breakpoints */
+@media all and (max-width: 1199px) { }
+@media all and (max-width: 991px) {  }
+@media all and (max-width: 768px) {
+}
+@media all and (max-width: 575px) {
+    #restaurants-list li {
+        display: block;
+    }
+
+}
+
