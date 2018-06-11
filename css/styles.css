@@ -328,3 +328,37 @@ nav h1 a {
 
 }
 
+/*Responsive Design */
+
+.filter-options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#filter-title{
+    width: 100%;
+}
+#neighborhoods-select{
+    width: 100%;
+}
+
+#cuisines-select{
+    width: 100%;
+}
+
+@media screen and (min-width: 450px) {
+    .filter-options{
+
+    }
+    #neighborhoods-select{
+        width: 40%;
+    }
+
+    #cuisines-select{
+        width: 40%;
+    }
+
+}
+
